@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #ffd700;
+}
+
+/* aqui eu edito meu container*/
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*aqui edito minha div cardapio, que é a o fundo que fica em baixo dos produtos*/
+.cardapio {
+    background: #ecedea;
+    font-size: 20px;
+    padding: 1rem;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+/*Aqui é o meu cabeçalho */
+.cardapio header {
+    color: #d84c72;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight: 800px;
+    margin-bottom: 10px;
+}   
+
+/* edição de cada produto */
+.produto { margin-bottom: 20px; }
+
+/* Aqui edito o resto de cada produto */
+.produto p {
+    background-color: #1999E4;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* aqui é edito a seção onde contem todos produtos */
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
